@@ -16,7 +16,7 @@ const testimonialsData = [
   {
     id: 2,
     type: 'photo',
-    thumbnail: 'src/images/env.png',
+    thumbnail: '/images/env.png',
     name: 'Jean-Baptiste N.',
     role: 'Bénéficiaire - Sécurite Alimentaire',
     location: 'Village de Besson',
