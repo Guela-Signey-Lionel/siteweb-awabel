@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { contactInfo, navLinks } from '@/mocks/homeData';
 import FadeInSection from '@/components/base/FadeInSection';
-import logoUrl from '@/images/logo.jpeg';
 
 export default function Footer() {
   const { t } = useTranslation('home');
@@ -17,7 +16,7 @@ export default function Footer() {
               <div className="flex items-center gap-2.5 mb-4">
                 <div className="w-10 h-10 rounded-lg overflow-hidden flex-shrink-0 bg-white">
                   <img
-                    src={logoUrl}
+                    src="/images/logo.jpeg"
                     alt="AWABEL Logo"
                     className="w-full h-full object-contain"
                   />

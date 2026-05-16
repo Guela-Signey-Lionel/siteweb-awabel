@@ -10,7 +10,7 @@ export default function CTASection() {
       <section className="relative overflow-hidden">
         <div className="relative h-[400px] md:h-[500px]">
           <img
-            src="src/images/image3.jpeg"
+            src="/images/image3.jpeg"
             alt="Communauté solidaire en RCA"
             className="absolute inset-0 w-full h-full object-cover"
           />

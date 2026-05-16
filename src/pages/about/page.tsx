@@ -31,7 +31,7 @@ export default function AboutPage() {
       {/* Hero Banner */}
       <FadeInSection>
       <section className="relative h-[350px] md:h-[450px] overflow-hidden">
-        <img src="src/images/image1.jpeg" alt="AWABEL communaute" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/images/image1.jpeg" alt="AWABEL communaute" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-awabel-primary/80 via-awabel-primary/60 to-awabel-primary/80"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
           <span className="inline-block px-4 py-1.5 border border-white/40 rounded-full text-white/90 text-xs font-medium tracking-wide mb-4 backdrop-blur-sm">AWABEL</span>
@@ -89,7 +89,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="relative">
-              <img src="src/images/image3.jpeg" alt="Equipe AWABEL au travail" className="w-full h-[500px] md:h-[600px] object-cover rounded-2xl" />
+              <img src="/images/image3.jpeg" alt="Equipe AWABEL au travail" className="w-full h-[500px] md:h-[600px] object-cover rounded-2xl" />
               <div className="absolute -bottom-6 -left-6 bg-awabel-yellow text-awabel-dark p-5 rounded-xl shadow-lg">
                 <div className="text-3xl font-bold font-nunito">2022</div>
                 <div className="text-awabel-dark/80 text-sm">{t('about.founded_label')}</div>

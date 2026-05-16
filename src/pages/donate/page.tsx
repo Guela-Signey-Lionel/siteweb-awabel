@@ -301,7 +301,7 @@ export default function DonatePage() {
               </div>
               <div className="relative">
                 <div className="absolute -inset-4 bg-awabel-primary/5 rounded-3xl blur-2xl"></div>
-                <img src="src/images/image1.jpeg" alt="Bénévoles AWABEL" className="relative rounded-2xl w-full h-[400px] md:h-[500px] object-cover border border-gray-100 shadow-lg" />
+                <img src="/images/image1.jpeg" alt="Bénévoles AWABEL" className="relative rounded-2xl w-full h-[400px] md:h-[500px] object-cover border border-gray-100 shadow-lg" />
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ export default function PartnersPage() {
       {/* Hero Banner */}
       <FadeInSection>
       <section className="relative h-[300px] md:h-[380px] overflow-hidden">
-        <img src="src/images/image3.jpeg" alt="Partenaires AWABEL" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/images/image3.jpeg" alt="Partenaires AWABEL" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-awabel-primary/80 via-awabel-primary/60 to-awabel-primary/80"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
           <span className="inline-block px-4 py-1.5 border border-white/40 rounded-full text-white/90 text-xs font-medium tracking-wide mb-4 backdrop-blur-sm">AWABEL</span>

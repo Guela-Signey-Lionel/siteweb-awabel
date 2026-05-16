@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { navLinks, marqueeItems } from '@/mocks/homeData';
-import logoUrl from '@/images/logo.jpeg';
 
 export default function Navbar() {
   const { i18n, t } = useTranslation('home');
@@ -75,7 +74,7 @@ export default function Navbar() {
             <Link to="/" className="flex items-center gap-2.5 group">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-lg overflow-hidden flex-shrink-0 border border-gray-100 bg-white">
                 <img
-                  src={logoUrl}
+                  src="/images/logo.jpeg"
                   alt="AWABEL Logo"
                   className="w-full h-full object-contain"
                 />

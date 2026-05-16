@@ -49,7 +49,7 @@ export const programsData = [
     title: 'Éducation & Alphabétisation',
     description: "Lutte contre l'analphabétisme et promotion de l'accès à l'éducation pour tous en RCA.",
     fullDescription: "Ce programme vise à éradiquer l'analphabétisme en RCA à travers la mise en place de centres d'alphabétisation pour adultes, le soutien scolaire pour les enfants en difficulté et la formation professionnelle. En 2026, 3 centres sont actifs avec 450 apprenants réguliers.",
-    image: 'src/images/education.jpg',
+    image: '/images/education.jpg',
     bgColor: 'bg-awabel-primary/10',
   },
   {
@@ -57,7 +57,7 @@ export const programsData = [
     title: 'Eau, Hygiène & Assainissement',
     description: "Accès à l'eau potable et amélioration des conditions d'hygiène dans les communautés rurales.",
     fullDescription: "L'accès à l'eau potable reste un défi majeur en RCA. AWABEL construit des puits, des forages et des bornes-fontaines dans les villages. Le programme inclut aussi des sessions de sensibilisation à l'hygiène et la distribution de kits d'hygiène. 12 points d'eau ont été créés, bénéficiant à 3 200 personnes.",
-    image: 'src/images/eha.jpeg',
+    image: '/images/eha.jpeg',
     bgColor: 'bg-emerald-50',
   },
   {
@@ -65,7 +65,7 @@ export const programsData = [
     title: 'Sécurité Alimentaire',
     description: "Lutte contre la famine par l'agriculture durable et la formation polytechnique.",
     fullDescription: "Face à l'insécurité alimentaire chronique, AWABEL forme les paysans aux techniques agricoles modernes, distribue des semences améliorées et soutient les coopératives agricoles féminines. Le programme a permis d'augmenter les rendements de 40% dans les zones d'intervention.",
-    image: 'src/images/alimentaire.jpeg',
+    image: '/images/alimentaire.jpeg',
     bgColor: 'bg-orange-50',
   },
   {
@@ -73,7 +73,7 @@ export const programsData = [
     title: 'Environnement & Femmes',
     description: "Protection de l'environnement et autonomisation des femmes pour un avenir durable.",
     fullDescription: "La protection de l'environnement est au cœur de notre mission. AWABEL organise des campagnes de reboisement, forme les femmes à la gestion durable des ressources naturelles et promeut les énergies renouvelables. 15 000 arbres ont été plantés en 2025.",
-    image: 'src/images/environnement.jpeg',
+    image: '/images/environnement.jpeg',
     bgColor: 'bg-teal-50',
   },
   {
@@ -81,7 +81,7 @@ export const programsData = [
     title: 'Santé Communautaire',
     description: 'Santé maternelle et infantile, soins communautaires dans les zones reculées.',
     fullDescription: "La santé maternelle et infantile est une priorité absolue. AWABEL appuie les centres de santé communautaires, forme des relais communautaires et organise des campagnes de vaccination et de dépistage. Plus de 2 500 femmes ont bénéficié de soins prénatals en 2025.",
-    image: 'src/images/sante.jpg',
+    image: '/images/sante.jpg',
     bgColor: 'bg-red-50',
   },
 ];
@@ -93,7 +93,7 @@ export const newsData: NewsItem[] = [
     excerpt: "AWABEL a réalisé une mission d'écoute et d'évaluation participative dans la communauté Aka du village Ndjigba, localité de Yombo, Sous-Préfecture de Bimbo, Préfecture de l'Ombella M'poko.",
     category: 'Évaluation',
     date: 'Mai 2026',
-    image: 'src/images/image2.jpeg',
+    image: '/images/image2.jpeg',
     author: 'AWABEL Terrain',
   },
   {
@@ -102,7 +102,7 @@ export const newsData: NewsItem[] = [
     excerpt: "AWABEL accompagne les communautés dans la création des écoles de proximité pour éradiquer la déscolarisation des enfants.",
     category: 'Éducation',
     date: '15 Avril 2026',
-    image: 'src/images/education.jpg',
+    image: '/images/education.jpg',
     author: 'AWABEL Communication',
   },
   {
@@ -111,7 +111,7 @@ export const newsData: NewsItem[] = [
     excerpt: "AWABEL travaille en partenariat avec les Agences des Nations Unies, les ONG Nationaux et Internationaux ainsi que les Ambassades et les Institutions de l’Etat Centrafricaine.",
     category: 'Partenariat',
     date: '3 Mars 2026',
-    image: 'src/images/partenariat.jpg',
+    image: '/images/partenariat.jpg',
     author: 'AWABEL Presse',
   },
   {
@@ -120,7 +120,7 @@ export const newsData: NewsItem[] = [
     excerpt: 'Plus de 500 familles ont reçu des kits et quelques produits de première nécessité.',
     category: 'Action',
     date: '20 Février 2026',
-    image: 'src/images/image6.jpeg',
+    image: '/images/image6.jpeg',
     author: 'AWABEL Terrain',
   },
   {
@@ -129,7 +129,7 @@ export const newsData: NewsItem[] = [
     excerpt: 'Plus de 200 volontaires ont participé à la campagne nationale de reboisement dans certaines régions de la RCA.',
     category: 'Environnement',
     date: '10 Janvier 2026',
-    image: 'src/images/environnement.jpeg',
+    image: '/images/environnement.jpeg',
     author: 'AWABEL Environnement',
   },
   {
@@ -138,7 +138,7 @@ export const newsData: NewsItem[] = [
     excerpt: 'Session intensive de 3 jours sur les techniques agricoles durables et la gestion des coopératives agricoles féminines.',
     category: 'Agriculture',
     date: '5 Décembre 2025',
-    image: 'src/images/agriculture.jpeg',
+    image: '/images/agriculture.jpeg',
     author: 'AWABEL Agriculture',
   },
   {
@@ -147,7 +147,7 @@ export const newsData: NewsItem[] = [
     excerpt: "AWABEL soutient l'accès à l'eau potable, garantit l'hygiène et l'assainissement en milieu communautaire.",
     category: 'Eau, Hygiène et Assainissement',
     date: '18 Novembre 2025',
-    image: 'src/images/eha.jpeg',
+    image: '/images/eha.jpeg',
     author: 'AWABEL Eau',
   },
   {
@@ -156,7 +156,7 @@ export const newsData: NewsItem[] = [
     excerpt: "AWABEL a organisé une grande journée de célébration pour honorer les femmes issues de différentes communautés.",
     category: 'Femmes',
     date: '8 Mars 2026',
-    image: 'src/images/image4.jpeg',
+    image: '/images/image4.jpeg',
     author: 'AWABEL Genre',
   },
   {
@@ -165,7 +165,7 @@ export const newsData: NewsItem[] = [
     excerpt: "Le rapport annuel révèle des résultats exceptionnels sur les 5 axes stratégiques de l'ONG nationale.",
     category: 'Rapport',
     date: '1 Février 2026',
-    image: 'src/images/rapport.jpg',
+    image: '/images/rapport.jpg',
     author: 'AWABEL Direction',
   },
   {
@@ -174,7 +174,7 @@ export const newsData: NewsItem[] = [
     excerpt: "L'ONG AWABEL appui les Centres de Santé Communautaires dans le cadre de la stratégie nationale de santé pour la qualité des soins communautaires dispensés dans le centre soutenu par l'ONG.",
     category: 'Santé',
     date: '25 Mars 2026',
-    image: 'src/images/sante.jpg',
+    image: '/images/sante.jpg',
     author: 'AWABEL Santé',
   },
 ];
@@ -182,16 +182,16 @@ export const newsData: NewsItem[] = [
 export const newsCategories = ['Tout', 'Évaluation', 'Éducation', 'Partenariat', 'Action', 'Environnement', 'Agriculture', 'Eau, Hygiène et Assainissement', 'Femmes', 'Rapport', 'Santé', 'Eau, Hygiène et Assainissement'];  
 
 export const teamData = [
-  { name: 'MOUNDJOUTENDE Jolie Judas', role: 'Coordonnatrice Nationale', image: 'src/images/Coordo.png' },
-  { name: 'DALI-KPANA NAYO Larissa', role: 'Responsable Programmes et Projets', image: 'src/images/logo.jpeg' },
-  { name: 'CAMEGO Née NGOY P.', role: 'Responsable Mobilisation des Ressources', image: 'src/images/logo.jpeg' },
-  { name: 'NGARO Gisèle', role: 'Responsable Ressources Humaines', image: 'src/images/logo.jpeg' },
-  { name: 'GRENGONDA Lisa Sandrine', role: 'Comptable', image: 'src/images/logo.jpeg' },
-  { name: 'POUNOUBADA Doris', role: 'Responsable Suivi-évaluation', image: 'src/images/logo.jpeg' },
-  { name: 'NINGADAMA Milca', role: 'Chargée de Mobilisation Communautaire', image: 'src/images/CMC.png' },
-  { name: 'MBAMBA Flora', role: 'Assistante Mobilisatrice', image: 'src/images/AM.jpeg' },
-  { name: 'ZOZOKOPA Jordan Stéphane', role: 'Responsable Logistique', image: 'src/images/logo.jpeg' },
-  { name: 'KAZIMO Cédric', role: 'Conseiller Juridique', image: 'src/images/logo.jpeg' },
+  { name: 'MOUNDJOUTENDE Jolie Judas', role: 'Coordonnatrice Nationale', image: '/images/Coordo.png' },
+  { name: 'DALI-KPANA NAYO Larissa', role: 'Responsable Programmes et Projets', image: '/images/logo.jpeg' },
+  { name: 'CAMEGO Née NGOY P.', role: 'Responsable Mobilisation des Ressources', image: '/images/logo.jpeg' },
+  { name: 'NGARO Gisèle', role: 'Responsable Ressources Humaines', image: '/images/logo.jpeg' },
+  { name: 'GRENGONDA Lisa Sandrine', role: 'Comptable', image: '/images/logo.jpeg' },
+  { name: 'POUNOUBADA Doris', role: 'Responsable Suivi-évaluation', image: '/images/logo.jpeg' },
+  { name: 'NINGADAMA Milca', role: 'Chargée de Mobilisation Communautaire', image: '/images/CMC.png' },
+  { name: 'MBAMBA Flora', role: 'Assistante Mobilisatrice', image: '/images/AM.jpeg' },
+  { name: 'ZOZOKOPA Jordan Stéphane', role: 'Responsable Logistique', image: '/images/logo.jpeg' },
+  { name: 'KAZIMO Cédric', role: 'Conseiller Juridique', image: '/images/logo.jpeg' },
 ];
 
 export const partnersData = [

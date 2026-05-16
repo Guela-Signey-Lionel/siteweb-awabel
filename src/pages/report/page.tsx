@@ -31,7 +31,7 @@ export default function ReportPage() {
       {/* Hero Banner */}
       <FadeInSection>
         <section className="relative h-[300px] md:h-[400px] overflow-hidden">
-          <img src="src/images/rapport.jpg" alt="Rapport annuel AWABEL" className="absolute inset-0 w-full h-full object-cover" />
+          <img src="/images/rapport.jpg" alt="Rapport annuel AWABEL" className="absolute inset-0 w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-awabel-dark/70 via-awabel-primary/50 to-awabel-dark/70"></div>
           <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
             <div className="flex items-center gap-2 mb-4">
@@ -135,7 +135,7 @@ export default function ReportPage() {
               </div>
               <div className="relative">
                 <div className="absolute -inset-4 bg-awabel-primary/5 rounded-3xl blur-2xl"></div>
-                <img src="src/images/image6.jpeg" alt="Transparence financière AWABEL" className="relative rounded-2xl w-full h-[400px] md:h-[480px] object-cover border border-gray-100 shadow-lg" />
+                <img src="/images/image6.jpeg" alt="Transparence financière AWABEL" className="relative rounded-2xl w-full h-[400px] md:h-[480px] object-cover border border-gray-100 shadow-lg" />
               </div>
             </div>
           </div>

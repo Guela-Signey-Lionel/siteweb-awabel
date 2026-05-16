@@ -253,7 +253,7 @@ export default function ContactPage() {
       <FadeInSection>
       <section className="relative h-[280px] md:h-[350px] overflow-hidden">
         <img
-          src="src/images/image4.jpeg"
+          src="/images/image4.jpeg"
           alt="Contact AWABEL"
           className="absolute inset-0 w-full h-full object-cover"
         />

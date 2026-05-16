@@ -55,7 +55,7 @@ export default function NewsPage() {
       {/* Hero Banner */}
       <FadeInSection>
       <section className="relative h-[280px] md:h-[350px] overflow-hidden">
-        <img src="src/images/image4.jpeg" alt="Actualités AWABEL" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/images/image4.jpeg" alt="Actualités AWABEL" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-awabel-primary/80 via-awabel-primary/60 to-awabel-primary/80"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white font-nunito mb-3">{t('news_page.title')}</h1>

@@ -6,7 +6,7 @@ const testimonialsData = [
   {
     id: 1,
     type: 'photo',
-    thumbnail: 'src/images/image7.jpeg',
+    thumbnail: '/images/image7.jpeg',
     name: 'Marie Claire K.',
     role: 'Bénéficiaire - Programme Humanitaire',
     location: 'Bangui, quartier MODOUA',
@@ -26,7 +26,7 @@ const testimonialsData = [
   {
     id: 3,
     type: 'photo',
-    thumbnail: 'src/images/vaccination.jpeg',
+    thumbnail: '/images/vaccination.jpeg',
     name: 'Esther M.',
     role: 'Partenaire - Santé Communautaire',
     location: 'Centre de santé MODOUA',

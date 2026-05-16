@@ -134,7 +134,7 @@ export default function HeroSection() {
                 <div className="absolute -inset-4 bg-awabel-primary/10 rounded-3xl blur-2xl"></div>
                 <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
                   <img
-                    src="src/images/image2.jpeg"
+                    src="/images/image2.jpeg"
                     alt="Activités AWABEL sur le terrain en République Centrafricaine"
                     className="w-full h-[400px] md:h-[500px] lg:h-[560px] object-cover"
                   />

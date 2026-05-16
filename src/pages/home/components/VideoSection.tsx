@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import FadeInSection from '@/components/base/FadeInSection';
 
-const VIDEO_THUMBNAIL = 'src/images/image6.jpeg';
+const VIDEO_THUMBNAIL = '/images/image6.jpeg';
 
 export default function VideoSection() {
   const { t } = useTranslation('home');
