@@ -16,7 +16,7 @@ export default function ProgramsSection() {
               {t('programs.section_title')}
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-awabel-dark font-nunito leading-tight">
-              Cinq (5) programmes pour<br />
+              Cinq (5) domaines pour<br />
               <em className="text-awabel-primary font-serif">transformer les vies</em>
             </h2>
             <p className="text-gray-600 mt-4 max-w-xl text-sm md:text-base">

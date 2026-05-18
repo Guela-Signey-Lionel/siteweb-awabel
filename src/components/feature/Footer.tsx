@@ -62,11 +62,11 @@ export default function Footer() {
                 {t('footer.programs')}
               </h4>
               <ul className="space-y-2.5">
-                <li><span className="text-white/80 text-sm">Éducation & Alphabétisation</span></li>
-                <li><span className="text-white/80 text-sm">Eau, Hygiène & Assainissement</span></li>
-                <li><span className="text-white/80 text-sm">Sécurité Alimentaire</span></li>
-                <li><span className="text-white/80 text-sm">Environnement & Femmes</span></li>
-                <li><span className="text-white/80 text-sm">Santé Communautaire</span></li>
+                <li><span className="text-white/80 text-sm">Droits des femmes</span></li>
+                <li><span className="text-white/80 text-sm">Autonomisation économique des femmes</span></li>
+                <li><span className="text-white/80 text-sm">Éducation & scolarisation</span></li>
+                <li><span className="text-white/80 text-sm">Santé communautaire & bien-être familial</span></li>
+                <li><span className="text-white/80 text-sm">Environnement, agropastoral & agroalimentaire</span></li>
               </ul>
             </div>
 

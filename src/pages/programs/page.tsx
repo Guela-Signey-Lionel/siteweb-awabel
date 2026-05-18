@@ -1,19 +1,19 @@
 import { useTranslation } from 'react-i18next';
-import { programsData, statsData } from '@/mocks/homeData';
+import { programsData } from '@/mocks/homeData';
 import FadeInSection from '@/components/base/FadeInSection';
 
 const programIcons: Record<string, string> = {
+  'droits-femmes': 'ri-scales-3-line',
+  autonomisation: 'ri-hand-coin-line',
   education: 'ri-book-open-line',
-  eau: 'ri-drop-line',
-  alimentation: 'ri-seedling-line',
-  environnement: 'ri-plant-line',
   sante: 'ri-heart-pulse-line',
+  environnement: 'ri-plant-line',
 };
 
 const impactKeys = [
   { number: '150+', key: 'literacy', icon: 'ri-book-open-line' },
-  { number: '12', key: 'water_points', icon: 'ri-drop-line' },
-  { number: '40%', key: 'agriculture', icon: 'ri-seedling-line' },
+  { number: '12', key: 'women_groups', icon: 'ri-team-line' },
+  { number: '40%', key: 'economic_autonomy', icon: 'ri-hand-coin-line' },
   { number: '1500+', key: 'trees', icon: 'ri-plant-line' },
   { number: '60+', key: 'prenatal', icon: 'ri-heart-pulse-line' },
   { number: '18', key: 'villages', icon: 'ri-community-line' },
