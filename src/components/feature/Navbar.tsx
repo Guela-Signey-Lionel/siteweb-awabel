@@ -37,10 +37,7 @@ export default function Navbar() {
         onMouseLeave={() => setMarqueePaused(false)}
       >
         <div
-          className="flex whitespace-nowrap"
-          style={{
-            animation: marqueePaused ? 'none' : 'marquee-scroll 20s linear infinite',
-          }}
+          className={`flex whitespace-nowrap ${marqueePaused ? '' : 'animate-marquee-responsive'}`}
         >
           {marqueeItems.map((item, idx) => (
             <span key={idx} className="flex items-center gap-2 mx-6">

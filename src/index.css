@@ -36,6 +36,16 @@
   animation: marquee-scroll 35s linear infinite;
 }
 
+.animate-marquee-responsive {
+  animation: marquee-scroll 12s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .animate-marquee-responsive {
+    animation-duration: 20s;
+  }
+}
+
 .animate-fade-in-up {
   animation: fadeInUp 0.6s ease-out forwards;
 }
