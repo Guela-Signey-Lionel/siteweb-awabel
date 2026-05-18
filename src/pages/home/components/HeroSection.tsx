@@ -85,7 +85,7 @@ export default function HeroSection() {
                   </span>
                   <div>
                     <div className="text-white text-sm font-semibold">Bangui</div>
-                    <div className="text-white/80 text-xs">6ème arrdt, Quartier MODOUA</div>
+                    <div className="text-white/80 text-xs">6ème Arrdt, Quartier Linguissa I</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 bg-white/[0.10] rounded-lg px-4 py-3 border border-white/20 backdrop-blur-sm">

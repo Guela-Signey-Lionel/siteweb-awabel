@@ -213,8 +213,10 @@ export default function AboutPage() {
 
       {/* CTA */}
       <FadeInSection delay={100}>
-      <section className="bg-awabel-primary py-16 md:py-20 px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center">
+      <section className="relative overflow-hidden py-16 md:py-20 px-4 md:px-6">
+        <img src="/images/image4.jpeg" alt="" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-awabel-primary/80"></div>
+        <div className="relative z-10 max-w-3xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white font-nunito mb-4">{t('about.cta')}</h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
             <Link to="/contact" className="inline-flex items-center gap-2 bg-awabel-yellow text-awabel-dark px-8 py-3.5 rounded-full font-semibold text-sm hover:bg-awabel-yellow/90 transition-all">

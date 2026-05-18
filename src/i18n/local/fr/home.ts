@@ -456,6 +456,6 @@ export default {
   marquee: {
     motto: 'Solidarité - Justice - Égalité',
     country: 'République Centrafricaine',
-    address: 'Bangui - 6e arrondissement, quartier MODOUA, RCA',
+    address: 'Bangui-Fleuve - 6e Arrondissement, Quartier Linguissa I, RCA',
   },
 };

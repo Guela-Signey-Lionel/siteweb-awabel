@@ -77,10 +77,10 @@ export default function Navbar() {
                 />
               </div>
               <div className="hidden sm:flex flex-col items-start">
-                <span className="block text-base md:text-lg font-bold text-awabel-primary font-nunito tracking-tight leading-none">
+                <span className="block text-base md:text-lg font-bold text-awabel-yellow font-nunito tracking-tight leading-none">
                   AWABEL
                 </span>
-                <span className="block text-[9px] md:text-[10px] text-awabel-yellow leading-tight -mt-0.5 font-opensans whitespace-nowrap">
+                <span className="block text-[9px] md:text-[10px] text-awabel-primary leading-tight -mt-0.5 font-opensans whitespace-nowrap">
                   Association Wali ti Béafrica É Londo
                 </span>
               </div>

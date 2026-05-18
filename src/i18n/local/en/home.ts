@@ -457,6 +457,6 @@ export default {
   marquee: {
     motto: 'Solidarity - Justice - Equality',
     country: 'Central African Republic',
-    address: 'Bangui - 6th district, MODOUA neighborhood, CAR',
+    address: 'Bangui-River - 6th district, Linguissa I neighborhood, CAR',
   },
 };

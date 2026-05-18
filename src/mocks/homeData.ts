@@ -23,7 +23,7 @@ export const marqueeItems = [
   { icon: 'ri-phone-line', text: '+236 74 71 99 99' },
   { icon: 'ri-whatsapp-line', text: '+236 72 12 56 63 (WhatsApp)' },
   { icon: 'ri-mail-line', text: 'awabel26@gmail.com' },
-  { icon: 'ri-map-pin-line', text: 'Bangui - 6e arrondissement, quartier MODOUA, RCA', key: 'address' },
+  { icon: 'ri-map-pin-line', text: 'Bangui-Fleuve - 6e Arrondissement, Quartier Linguissa I, RCA', key: 'address' },
   { icon: 'ri-heart-line', text: 'Solidarité - Justice - Égalité', key: 'motto' },
   { icon: 'ri-earth-line', text: 'République Centrafricaine', key: 'country' },
   { icon: 'ri-shield-user-line', text: 'NIF 30001-0694-2007' },
@@ -32,7 +32,7 @@ export const marqueeItems = [
   { icon: 'ri-phone-line', text: '+236 74 71 99 99' },
   { icon: 'ri-whatsapp-line', text: '+236 72 12 56 63 (WhatsApp)' },
   { icon: 'ri-mail-line', text: 'awabel26@gmail.com' },
-  { icon: 'ri-map-pin-line', text: 'Bangui - 6e arrondissement, quartier MODOUA, RCA', key: 'address' },
+  { icon: 'ri-map-pin-line', text: 'Bangui-Fleuve - 6e Arrondissement, Quartier Linguissa I, RCA', key: 'address' },
   { icon: 'ri-heart-line', text: 'Solidarité - Justice - Égalité', key: 'motto' },
   { icon: 'ri-earth-line', text: 'République Centrafricaine', key: 'country' },
   { icon: 'ri-shield-user-line', text: 'NIF 30001-0694-2007' },
@@ -205,7 +205,7 @@ export const partnersData = [
 ];
 
 export const contactInfo = {
-  address: 'Bangui - 6e arrondissement, quartier MODOUA, République Centrafricaine',
+  address: 'Bangui - 6e Arrondissement, Quartier Linguissa I, République Centrafricaine',
   phone1: '+236 74 71 99 99',
   phone2: '+236 70 05 05 87',
   email: 'awabel26@gmail.com',

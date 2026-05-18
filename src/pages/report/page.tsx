@@ -144,8 +144,10 @@ export default function ReportPage() {
 
       {/* CTA */}
       <FadeInSection delay={100}>
-        <section className="bg-awabel-primary py-16 md:py-20 px-4 md:px-6">
-          <div className="max-w-3xl mx-auto text-center">
+        <section className="relative overflow-hidden py-16 md:py-20 px-4 md:px-6">
+          <img src="/images/image3.jpeg" alt="" className="absolute inset-0 w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-awabel-primary/80"></div>
+          <div className="relative z-10 max-w-3xl mx-auto text-center">
             <div className="w-16 h-16 mx-auto rounded-full bg-awabel-yellow/20 flex items-center justify-center mb-6">
               <span className="w-8 h-8 flex items-center justify-center text-awabel-yellow">
                 <i className="ri-file-download-line text-2xl"></i>
