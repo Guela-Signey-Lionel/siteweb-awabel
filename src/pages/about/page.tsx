@@ -1,11 +1,17 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { teamData, statsData } from '@/mocks/homeData';
+import { teamData } from '@/mocks/homeData';
 import FadeInSection from '@/components/base/FadeInSection';
 
 const valueKeys = ['solidarity', 'justice', 'equality', 'transparency', 'innovation', 'perseverance'] as const;
+const documentKeys = ['pv', 'ri', 'statuts'] as const;
 const teamRoleKeys = ['coordo', 'prog', 'ressources', 'rh', 'compta', 'suivi', 'mobilisation', 'assistante', 'logistique', 'juridique'] as const;
 const valueIcons = ['ri-heart-3-line', 'ri-scales-3-line', 'ri-equalizer-line', 'ri-eye-line', 'ri-lightbulb-flash-line', 'ri-anchor-line'];
+const documentFiles = {
+  pv: '/documents/PV%20AWABEL%20OK.pdf',
+  ri: '/documents/R.I%20AWABEL%20OK.pdf',
+  statuts: '/documents/STATUTS%20AWABEL%20OK.pdf',
+} as const;
 
 function ValueCard({ valKey, index }: { valKey: string; index: number }) {
   const { t } = useTranslation('home');
@@ -20,6 +26,36 @@ function ValueCard({ valKey, index }: { valKey: string; index: number }) {
       <h3 className="text-awabel-dark font-bold text-base mb-2">{t(`about.values.${valKey}.title`)}</h3>
       <p className="text-gray-500 text-sm leading-relaxed">{t(`about.values.${valKey}.desc`)}</p>
     </div>
+  );
+}
+
+function DocumentCard({ docKey }: { docKey: (typeof documentKeys)[number] }) {
+  const { t } = useTranslation('home');
+
+  return (
+    <article className="bg-white rounded-xl p-6 border border-gray-100 hover:border-awabel-primary/30 hover:shadow-lg transition-all duration-300 flex flex-col">
+      <div className="flex items-start justify-between gap-4 mb-5">
+        <div className="w-12 h-12 rounded-xl bg-awabel-primary text-white flex items-center justify-center shrink-0">
+          <i className="ri-file-pdf-2-line text-xl"></i>
+        </div>
+        <span className="bg-awabel-light text-awabel-primary text-xs font-semibold px-3 py-1 rounded-full whitespace-nowrap">
+          {t('about.document_type')}
+        </span>
+      </div>
+      <div className="flex-1">
+        <p className="text-awabel-yellow text-xs font-semibold tracking-wide uppercase mb-2">{t(`about.documents.${docKey}.meta`)}</p>
+        <h3 className="text-awabel-dark font-bold text-lg mb-3 font-nunito">{t(`about.documents.${docKey}.title`)}</h3>
+        <p className="text-gray-500 text-sm leading-relaxed">{t(`about.documents.${docKey}.description`)}</p>
+      </div>
+      <a
+        href={documentFiles[docKey]}
+        download
+        className="mt-6 inline-flex items-center justify-center gap-2 bg-awabel-primary text-white px-5 py-3 rounded-full font-semibold text-sm hover:bg-awabel-primary/90 transition-colors"
+      >
+        <span>{t('about.download_document')}</span>
+        <span className="w-4 h-4 flex items-center justify-center"><i className="ri-download-2-line"></i></span>
+      </a>
+    </article>
   );
 }
 
@@ -91,7 +127,7 @@ export default function AboutPage() {
             <div className="relative">
               <img src="/images/image3.jpeg" alt="Equipe AWABEL au travail" className="w-full h-[500px] md:h-[600px] object-cover rounded-2xl" />
               <div className="absolute -bottom-6 -left-6 bg-awabel-yellow text-awabel-dark p-5 rounded-xl shadow-lg">
-                <div className="text-3xl font-bold font-nunito">2022</div>
+                <div className="text-3xl font-bold font-nunito">2023</div>
                 <div className="text-awabel-dark/80 text-sm">{t('about.founded_label')}</div>
               </div>
             </div>
@@ -114,6 +150,27 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {valueKeys.map((key, idx) => (
               <ValueCard key={key} valKey={key} index={idx} />
+            ))}
+          </div>
+        </div>
+      </section>
+      </FadeInSection>
+
+      {/* Documents */}
+      <FadeInSection delay={100}>
+      <section className="bg-white py-16 md:py-24 px-4 md:px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-2 mb-3">
+              <div className="w-2.5 h-2.5 rounded-full bg-awabel-yellow"></div>
+              <span className="text-awabel-yellow text-sm font-semibold tracking-wide uppercase">{t('about.documents_title')}</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-awabel-dark font-nunito mb-4">{t('about.documents_heading')}</h2>
+            <p className="text-gray-500 text-sm md:text-base max-w-3xl mx-auto leading-relaxed">{t('about.documents_subtitle')}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {documentKeys.map((key) => (
+              <DocumentCard key={key} docKey={key} />
             ))}
           </div>
         </div>

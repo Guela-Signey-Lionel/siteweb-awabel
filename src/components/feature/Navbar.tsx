@@ -84,7 +84,7 @@ export default function Navbar() {
                   AWABEL
                 </span>
                 <span className="block text-[9px] md:text-[10px] text-awabel-yellow leading-tight -mt-0.5 font-opensans whitespace-nowrap">
-                  A Wali ti Béafrica E Londo
+                  Association Wali ti Béafrica É Londo
                 </span>
               </div>
             </Link>

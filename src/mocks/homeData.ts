@@ -27,6 +27,8 @@ export const marqueeItems = [
   { icon: 'ri-heart-line', text: 'Solidarité - Justice - Égalité', key: 'motto' },
   { icon: 'ri-earth-line', text: 'République Centrafricaine', key: 'country' },
   { icon: 'ri-shield-user-line', text: 'NIF 30001-0694-2007' },
+  { icon: 'ri-shield-user-line', text: 'NIU N°2362026M89457L' },
+  { icon: 'ri-shield-user-line', text: 'AGRÉMENT N°429/MADDL/DIRCAB/DGAT/DAPSE/SASE' },
   { icon: 'ri-phone-line', text: '+236 74 71 99 99' },
   { icon: 'ri-whatsapp-line', text: '+236 72 12 56 63 (WhatsApp)' },
   { icon: 'ri-mail-line', text: 'awabel26@gmail.com' },
@@ -34,6 +36,8 @@ export const marqueeItems = [
   { icon: 'ri-heart-line', text: 'Solidarité - Justice - Égalité', key: 'motto' },
   { icon: 'ri-earth-line', text: 'République Centrafricaine', key: 'country' },
   { icon: 'ri-shield-user-line', text: 'NIF 30001-0694-2007' },
+  { icon: 'ri-shield-user-line', text: 'NIU N°2362026M89457L' },
+  { icon: 'ri-shield-user-line', text: 'AGRÉMENT N°429/MADDL/DIRCAB/DGAT/DAPSE/SASE' },
 ];
 
 export const statsData = [
@@ -152,7 +156,7 @@ export const newsData: NewsItem[] = [
   },
   {
     id: 7,
-    title: 'Journée mondiale de la femme : célébration avec les bénéficiaires',
+    title: 'Journée internationale des droits de la femme : célébration avec les bénéficiaires',
     excerpt: "AWABEL a organisé une grande journée de célébration pour honorer les femmes issues de différentes communautés.",
     category: 'Femmes',
     date: '8 Mars 2026',
@@ -182,14 +186,13 @@ export const newsData: NewsItem[] = [
 export const newsCategories = ['Tout', 'Évaluation', 'Éducation', 'Partenariat', 'Action', 'Environnement', 'Agriculture', 'Eau, Hygiène et Assainissement', 'Femmes', 'Rapport', 'Santé', 'Eau, Hygiène et Assainissement'];  
 
 export const teamData = [
-  { name: 'MOUNDJOUTENDE Jolie Judas', role: 'Coordonnatrice Nationale', image: '/images/Coordo.png' },
+  { name: 'MOUNDJOUTENDE Jolie Judas', role: 'Coordonnatrice', image: '/images/Coordo.png' },
   { name: 'DALI-KPANA NAYO Larissa', role: 'Responsable Programmes et Projets', image: '/images/logo.jpeg' },
   { name: 'CAMEGO Née NGOY P.', role: 'Responsable Mobilisation des Ressources', image: '/images/logo.jpeg' },
   { name: 'NGARO Gisèle', role: 'Responsable Ressources Humaines', image: '/images/logo.jpeg' },
   { name: 'GRENGONDA Lisa Sandrine', role: 'Comptable', image: '/images/logo.jpeg' },
-  { name: 'POUNOUBADA Doris', role: 'Responsable Suivi-évaluation', image: '/images/logo.jpeg' },
+  { name: 'POUNOUBADA Doris', role: 'Responsable Suivi-Évaluation', image: '/images/logo.jpeg' },
   { name: 'NINGADAMA Milca', role: 'Chargée de Mobilisation Communautaire', image: '/images/CMC.png' },
-  { name: 'MBAMBA Flora', role: 'Assistante Mobilisatrice', image: '/images/AM.jpeg' },
   { name: 'ZOZOKOPA Jordan Stéphane', role: 'Responsable Logistique', image: '/images/logo.jpeg' },
   { name: 'KAZIMO Cédric', role: 'Conseiller Juridique', image: '/images/logo.jpeg' },
 ];
@@ -210,13 +213,13 @@ export const contactInfo = {
 };
 
 export const aboutContent = {
-  history: "Fondée en 2022, AWABEL est née de la volonté de citoyens centrafricains engagés à transformer leur pays. Partant du constat que la pauvreté, l'analphabétisme et l'exclusion des femmes freinent le développement de la RCA, nos fondateurs ont décidé d'agir. Depuis, l'ONG nationale n'a cessé de croître, passant de 3 bénévoles à une équipe de 9 salariés permanents et des centaines de volontaires.",
+  history: "Fondée en 2023, AWABEL est née de la volonté de citoyens centrafricains engagés à transformer leur pays. Partant du constat que la pauvreté, l'analphabétisme et l'exclusion des femmes freinent le développement de la RCA, nos fondateurs ont décidé d'agir. Depuis, l'ONG nationale n'a cessé de croître, passant de 3 bénévoles à une équipe de 9 salariés permanents et des centaines de volontaires.",
   mission: "Contribuer à la réduction de la pauvreté, de l'analphabétisme et de la famine en République Centrafricaine à travers des programmes intégrés de développement durable, tout en promouvant les droits des femmes et la protection de l'environnement.",
   vision: "Une République Centrafricaine où chaque citoyen, et particulièrement chaque femme et chaque enfant, vit dans la dignité, l'autonomie et la sécurité, grâce à un accès équitable à l'éducation, à la santé, à l'eau et à la sécurité alimentaire.",
   values: [
-    { title: 'Solidarité', desc: 'Nous croyons au pouvoir de l\'action collective et de l\'entraide.' },
-    { title: 'Justice', desc: 'Nous défendons l\'équité et les droits fondamentaux de tous.' },
-    { title: 'Égalité', desc: 'Nous promouvons l\'égalité des chances, en particulier pour les femmes.' },
+    { title: 'Solidarité', desc: 'Nous croyons que la transformation durable ne peut se faire qu\'ensemble. La solidarité, c\'est se soutenir les uns les autres, unir nos forces face aux défis et bâtir un avenir commun fondé sur l\'entraide. C\'est aussi valoriser la richesse du vivre-ensemble, respecter les différences et travailler collectivement pour l\'émancipation des plus vulnérables.« Être solidaire, c\'est faire du bien commun une priorité. »' },
+    { title: 'Justice', desc: 'La justice est le fondement de toute société équitable. AWABEL œuvre pour une justice sociale et inclusive, qui garantit à chaque individu le respect de ses droits, la protection contre toute forme d\'injustice et un traitement équitable, quelles que soient ses origines ou ses conditions de vie. Nous défendons l\'accès équitable aux ressources, à l\'éducation, à la santé et à la parole. « Il n\'y a pas de paix sans justice, et pas de justice sans équité. »' },
+    { title: 'Égalité', desc: 'L\'égalité est au cœur de notre mission. Nous luttons activement contre toutes les formes de discrimination, notamment liées au genre, à l\'âge, à l\'ethnie ou au statut social. Chez AWABEL, chaque personne a la même valeur, les mêmes droits et les mêmes opportunités de s\'épanouir et de contribuer au développement de sa communauté. « L\'égalité est une base, pas une option. »' },
     { title: 'Transparence', desc: 'Nous assurons une gouvernance ouverte et un usage responsable des ressources.' },
     { title: 'Innovation', desc: 'Nous recherchons constamment des solutions créatives aux défis locaux.' },
     { title: 'Persévérance', desc: 'Nous restons engagés malgré les obstacles, avec détermination et courage.' },

@@ -9,7 +9,7 @@ const testimonialsData = [
     thumbnail: '/images/image7.jpeg',
     name: 'Marie Claire K.',
     role: 'Bénéficiaire - Programme Humanitaire',
-    location: 'Bangui, quartier MODOUA',
+    location: 'Village de Besson',
     quote: "Grace à l'ONG AWABEL, j'ai reçu quelques produits de premières nécessité dans ma famille, j'ai également bénéficié des conseils sociaux.",
     duration: '',
   },

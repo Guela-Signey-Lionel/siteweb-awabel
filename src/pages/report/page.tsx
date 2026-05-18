@@ -14,7 +14,7 @@ const reportStatsKeys = [
 ] as const;
 
 const timelineKeys = ['t1', 't2', 't3', 't4', 't5', 't6'] as const;
-const timelineYears = ['2022', '2024', '2025', '2026', '2026', '2026'];
+const timelineYears = ['2023', '2024', '2025', '2026', '2026', '2026'];
 
 const financeKeys = [
   { key: 'field', value: 72, color: 'bg-awabel-primary' },

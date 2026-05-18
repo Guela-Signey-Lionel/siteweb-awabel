@@ -66,7 +66,7 @@ export default function HeroSection() {
                     <i className="ri-calendar-line text-sm"></i>
                   </span>
                   <div>
-                    <div className="text-white text-sm font-semibold">2022</div>
+                    <div className="text-white text-sm font-semibold">2023</div>
                     <div className="text-white/80 text-xs">{t('hero.info_founded')}</div>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ export default function HeroSection() {
                   </span>
                   <div>
                     <div className="text-white text-sm font-semibold">Bangui</div>
-                    <div className="text-white/80 text-xs">6ème arrdt, MODOUA</div>
+                    <div className="text-white/80 text-xs">6ème arrdt, Quartier MODOUA</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 bg-white/[0.10] rounded-lg px-4 py-3 border border-white/20 backdrop-blur-sm">
