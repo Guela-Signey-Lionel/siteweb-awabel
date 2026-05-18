@@ -22,7 +22,7 @@ export default function Footer() {
                   />
                 </div>
                 <div>
-                  <span className="text-base font-bold font-nunito text-awabel-yellow">AWABEL</span>
+                  <span className="text-base font-bold font-nunito text-awabel-yellow">ONG AWABEL</span>
                   <span className="block text-[9px] text-white leading-tight">Association Wali ti Béafrica É Londo</span>
                 </div>
               </div>

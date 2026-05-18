@@ -37,7 +37,7 @@ export default function HeroSection() {
 
               {/* Main title: AWABEL */}
               <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white font-nunito leading-none tracking-tight mb-3">
-                AWABEL
+                ONG AWABEL
               </h1>
 
               {/* Subtitle: Association Wali ti Beafrica Londo */}
